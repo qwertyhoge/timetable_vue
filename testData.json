@@ -1,0 +1,103 @@
+﻿{
+	"sunday": {
+		"plans": [
+			{
+				"name": "aaa",
+				"startTime": "03:00",
+				"endTime": "04:00"
+			},
+			{
+				"name": "bbb",
+				"startTime": "04:30",
+				"endTime": "05:00"
+			}
+		],
+		"dayName": "sunday",
+		"dayId": 1
+	},
+	"monday": {
+		"plans": [
+			{
+				"name": "ccc",
+				"startTime": "03:00",
+				"endTime": "04:00"
+			},
+			{
+				"name": "ddd",
+				"startTime": "04:00",
+				"endTime": "05:00"
+			}
+		],
+		"dayName": "monday",
+		"dayId": 2
+	},
+	"tuesday": {
+		"plans": [
+			{
+				"name": "eee",
+				"startTime": "03:00",
+				"endTime": "03:30"
+			},
+			{
+				"name": "fff",
+				"startTime": "03:30",
+				"endTime": "05:00"
+			}
+		],
+		"dayName": "tuesday",
+		"dayId": 3
+	},
+	"wednesday": {
+		"plans": [
+			{
+				"name": "ggg",
+				"startTime": "03:00",
+				"endTime": "03:10"
+			},
+			{
+				"name": "hhh",
+				"startTime": "03:10",
+				"endTime": "03:20"
+			},
+			{
+				"name": "iii",
+				"startTime": "03:20",
+				"endTime": "03:30"
+			}
+		],
+		"dayName": "wednesday",
+		"dayId": 4
+	},
+	"thirsday": {
+		"plans": [
+			{
+				"name": "jjj",
+				"startTime": "03:00",
+				"endTime": "04:00"
+			},
+			{
+				"name": "kkk",
+				"startTime": "03:30",
+				"endTime": "04:30"
+			}
+		],
+		"dayName": "thirsday",
+		"dayId": 5
+	},
+	"friday": {
+		"plans": [
+			{
+				"name": "llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll",
+				"startTime": "03:00",
+				"endTime": "04:00"
+			}
+		],
+		"dayName": "friday",
+		"dayId": 6
+	},
+	"saturday": {
+		"plans": [],
+		"dayName": "saturday",
+		"dayId": 7
+	}
+}

@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <script src="./vue.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="./style.css"></link>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div id="timetable">
+            <div id="form">
+                <timetable-form
+                    v-on:add-plan="pushPlan"
+                    v-bind:day-names="getDayNames"
+                >
+                </timetable-form>
+            </div>
+            <div id="clock">
+                <clock
+                    v-bind:timetable="timetable"
+                    v-on:day-change="highlightCurrentDay"
+                >
+
+                </clock>
+            </div>
+            <div id="table">
+                <timetable-column
+                    v-for="columnInfo in timetable"
+                    v-bind:key="columnInfo.dayId"
+                    v-bind:plans="columnInfo.plans"
+                    v-bind:day-name="columnInfo.dayName"
+                    ref="columns"
+                    v-on:delete-plan="deletePlan"
+                >
+                </timetable-column>
+            </div>
+            <div id="data-port">
+                <data-import
+                    v-on:import-data="importData"
+                >
+                </data-import>
+                <data-export
+                    v-bind:data="timetable"
+                >
+                </data-export>
+            </div>
+        </div>
+
+        <script src="timetableComponents.js"></script>
+        <script src="formComponents.js"></script>
+        <script src="dataPortComponents.js"></script>
+        <script src="clockComponents.js"></script>
+        <script src="main.js"></script>
+    </body>
+
+</html>

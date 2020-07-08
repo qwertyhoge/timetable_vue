@@ -1,0 +1,86 @@
+div#table {
+    /* normalize vertical positions and heights of columns */
+    display: flex;
+}
+div.timetable-column {
+    border: 1px black solid;
+    width: 14%;
+    margin: 0px;
+}
+
+div.plan-wrapper {
+    min-height: 1512px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+div.plan { 
+    position: absolute;
+    background: #f5f8f7;
+    border-top: 1px gray dashed;
+    border-bottom: 1px gray dashed;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    overflow-y: hidden;
+    z-index: 10;
+}
+
+div.plan-hover {
+    position: absolute;
+    background: #e5dcdd;
+    box-sizing: border-box;
+    border: 2px solid #bca1a3 !important;
+    border-radius: 7px;
+    width: 100%;
+    font-size: 18px;
+    overflow-y: hidden;
+    border: 0px;
+    z-index: 100 !important;
+}
+
+.day-header {
+    position: sticky;
+    top: 0px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.4em;
+    border: 1px solid #a5b3ad;
+    z-index: 1000;
+    background-color: #e8f2f5;
+
+}
+
+.highlight-day-header {
+    background-color: #e5cdd2;
+}
+
+div.start-time {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 5px;
+    color: #a4a6a5;
+}
+div.plan-name { 
+    margin: 15px 5px;
+}
+
+div.buttons { 
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+button.delete-button { 
+    font-size: 5px;
+}
+
+div.end-time { 
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 5px;
+    color: #a4a6a5;
+}
